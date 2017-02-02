@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/bin-search/bin-search.iml" filepath="$PROJECT_DIR$/bin-search/bin-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/python-algo.iml" filepath="$PROJECT_DIR$/python-algo.iml" />
     </modules>
   </component>

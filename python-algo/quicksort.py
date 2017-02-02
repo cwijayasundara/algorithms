@@ -9,6 +9,8 @@ def qsort(array):
         less = [i for i in array[1:] if i <= pivot]
         # sub array for elements grater than the pivot
         greater = [i for i in array[1:] if i > pivot]
-        return qsort(less) + [pivot] + qsort(greater)
+        # return qsort(less) + [pivot] + qsort(greater)
+        return qsort(greater) + [pivot] + less
 
-print qsort([23, 13, 345, 2000, 1, 0, 99])
+print qsort([23, 13, 345, 2000, 1, 0])
+
